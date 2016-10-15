@@ -34,6 +34,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)Model\Form\Properties\KeyValueProperty.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Model\Form\Property.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Model\Form\Forms\JobCard.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Form\FormProfile.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="$(MSBuildThisFileDirectory)Master\" />

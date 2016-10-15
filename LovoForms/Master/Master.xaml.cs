@@ -10,14 +10,14 @@ namespace LovoForms
 	{
 		public ListView ListView { get { return listView; } }
 
-		public Master()
+		public Master(FormProfile formProfile)
 		{
 			Title = "Forms";
 			InitializeComponent();
 
 			listView.ItemsSource = Database.GetMasterPageItems();
 
-			newButton.Text = "New";
+			newButton.Text = "New " + formProfile.FormName;
 		}
 
 		public void OnDelete(object sender, EventArgs e)

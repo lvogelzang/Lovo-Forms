@@ -3,5 +3,11 @@
 			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
 			 x:Class="LovoForms.Detail">
 	<ContentPage.Content>
+		<TableView Intent="Form" x:Name="tableView">
+			<TableRoot>
+				<TableSection>
+				</TableSection>
+			</TableRoot>
+		</TableView>
 	</ContentPage.Content>
 </ContentPage>

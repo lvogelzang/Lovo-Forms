@@ -22,5 +22,10 @@ namespace LovoForms
 			}
 			return res;
 		}
+
+		public static Form GetFormWithLabel(String id)
+		{
+			return new JobCard();
+		}
 	}
 }

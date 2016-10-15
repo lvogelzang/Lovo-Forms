@@ -7,7 +7,13 @@ namespace LovoForms
 		public App()
 		{
 			InitializeComponent();
-			MainPage = new MasterDetail();
+
+			var formProfile = new FormProfile(
+				"JobCard",
+				"JobCards",
+				typeof(JobCard));
+			
+			MainPage = new MasterDetail(formProfile);
 		}
 
 		protected override void OnStart()
