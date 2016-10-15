@@ -7,7 +7,6 @@ namespace LovoForms
 		public App()
 		{
 			InitializeComponent();
-
 			MainPage = new MasterDetail();
 		}
 

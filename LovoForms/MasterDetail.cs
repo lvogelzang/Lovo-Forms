@@ -2,6 +2,7 @@
 
 namespace LovoForms
 {
+	// First page when opening app. Master contains overview of forms, detail views one form.
 	public class MasterDetail : MasterDetailPage
 	{
 		public MasterDetail()

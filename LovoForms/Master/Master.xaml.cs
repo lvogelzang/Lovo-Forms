@@ -14,6 +14,21 @@ namespace LovoForms
 		{
 			Title = "Forms";
 			InitializeComponent();
+
+			listView.ItemsSource = Database.GetMasterPageItems();
+
+			newButton.Text = "New";
+		}
+
+		public void OnDelete(object sender, EventArgs e)
+		{
+			var mi = ((MenuItem)sender);
+			DisplayAlert("Delete Context Action", mi.CommandParameter + " delete context action", "OK");
+		}
+
+		public void OnNewClicked(object sender, EventArgs e)
+		{
+			DisplayAlert("Create new job card", "", "OK");
 		}
 	}
 }
