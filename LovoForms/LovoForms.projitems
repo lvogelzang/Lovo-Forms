@@ -29,11 +29,18 @@
       <DependentUpon>Detail.xaml</DependentUpon>
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)Model\Database.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Model\MasterPageItem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Form\Form.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Master\MasterPageItem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Form\Properties\KeyValueProperty.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Form\Property.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Form\Forms\JobCard.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="$(MSBuildThisFileDirectory)Master\" />
     <Folder Include="$(MSBuildThisFileDirectory)Detail\" />
     <Folder Include="$(MSBuildThisFileDirectory)Model\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Model\Form\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Model\Form\Properties\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Model\Form\Forms\" />
   </ItemGroup>
 </Project>
