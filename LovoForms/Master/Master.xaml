@@ -8,6 +8,23 @@
 	<ContentPage.Content>
         <StackLayout VerticalOptions="FillAndExpand">
             <ListView x:Name="listView">
+				<ListView.Footer>
+				    <StackLayout Padding="10,5,0,5">
+					    <Button Text="new" x:Name="newButton"
+        					HorizontalOptions="Center"
+				            VerticalOptions="CenterAndExpand"
+				            Clicked="OnNewClicked" />
+				    </StackLayout>
+				</ListView.Footer>
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell Text="{Binding Label}">
+                        	<TextCell.ContextActions>
+            					<MenuItem Clicked="OnDelete" CommandParameter="{Binding .}" Text="Delete" IsDestructive="True" />
+         					</TextCell.ContextActions>
+						</TextCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
             </ListView>
         </StackLayout>
 	</ContentPage.Content>

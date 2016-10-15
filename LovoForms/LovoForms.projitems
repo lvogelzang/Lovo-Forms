@@ -28,9 +28,12 @@
     <Compile Include="$(MSBuildThisFileDirectory)Detail\Detail.xaml.cs">
       <DependentUpon>Detail.xaml</DependentUpon>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Database.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\MasterPageItem.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="$(MSBuildThisFileDirectory)Master\" />
     <Folder Include="$(MSBuildThisFileDirectory)Detail\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Model\" />
   </ItemGroup>
 </Project>
