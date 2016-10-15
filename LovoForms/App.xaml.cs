@@ -8,7 +8,7 @@ namespace LovoForms
 		{
 			InitializeComponent();
 
-			MainPage = new LovoFormsPage();
+			MainPage = new MasterDetail();
 		}
 
 		protected override void OnStart()
