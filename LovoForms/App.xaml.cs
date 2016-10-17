@@ -9,8 +9,8 @@ namespace LovoForms
 			InitializeComponent();
 
 			var formProfile = new FormProfile(
-				"JobCard",
-				"JobCards",
+				Resx.JobCards.SingularName,
+				Resx.JobCards.PluralName,
 				typeof(JobCard));
 
 			MainPage = new MasterDetail(formProfile);

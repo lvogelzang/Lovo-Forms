@@ -38,7 +38,7 @@ namespace LovoForms
  			 * Command is only executable if the form is set. */
 			_openOptionsCommand = new Command(async () =>
 			{
-				var action = await DisplayActionSheet(null, "Cancel", "Delete", "Duplicate", "Export");
+				var action = await DisplayActionSheet(null, Resx.App.Cancel, Resx.App.Delete, Resx.App.Duplicate, Resx.App.Export);
 				Debug.WriteLine("Action: " + action);
 			}, () =>
 			{
@@ -46,7 +46,7 @@ namespace LovoForms
 			});
 
 			var ActionsItem = new ToolbarItem();
-			ActionsItem.Text = "Options";
+			ActionsItem.Text = Resx.App.Options;
 			ActionsItem.Command = _openOptionsCommand;
 			ToolbarItems.Add(ActionsItem);
 

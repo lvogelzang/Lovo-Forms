@@ -15,20 +15,20 @@ namespace LovoForms
 			Properties = new List<List<Property>>
 			{
 				new List<Property> {
-					new KeyValueProperty("Title", ""),
-					new KeyValueProperty("Revision", ""),
-					new KeyValueProperty("FocusArea", ""),
-					new KeyValueProperty("NumberOfJobs", "1")
+					new KeyValueProperty(Resx.JobCards.Title, ""),
+					new KeyValueProperty(Resx.JobCards.Revision, ""),
+					new KeyValueProperty(Resx.JobCards.FocusArea, ""),
+					new KeyValueProperty(Resx.JobCards.NumberOfJobs, "1")
 				},
 				new List<Property> {
-					new KeyValueProperty("Department", ""),
-					new KeyValueProperty("InstallationOrArea", ""),
-					new KeyValueProperty("MachineOrPlace", ""),
-					new KeyValueProperty("Part", "1"),
-					new KeyValueProperty("SIS", ""),
-					new KeyValueProperty("Frequency", ""),
-					new KeyValueProperty("Duration", ""),
-					new KeyValueProperty("When", "")
+					new KeyValueProperty(Resx.JobCards.Department, ""),
+					new KeyValueProperty(Resx.JobCards.InstallationOrArea, ""),
+					new KeyValueProperty(Resx.JobCards.MachineOrPlace, ""),
+					new KeyValueProperty(Resx.JobCards.Part, ""),
+					new KeyValueProperty(Resx.JobCards.SIS, ""),
+					new KeyValueProperty(Resx.JobCards.Frequency, ""),
+					new KeyValueProperty(Resx.JobCards.Duration, ""),
+					new KeyValueProperty(Resx.JobCards.When, "")
 				}
 			};
 		}
