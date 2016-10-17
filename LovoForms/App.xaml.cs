@@ -12,7 +12,7 @@ namespace LovoForms
 				"JobCard",
 				"JobCards",
 				typeof(JobCard));
-			
+
 			MainPage = new MasterDetail(formProfile);
 		}
 
