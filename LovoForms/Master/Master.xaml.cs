@@ -17,7 +17,7 @@ namespace LovoForms
 
 			listView.ItemsSource = Database.GetMasterPageItems();
 
-			newButton.Text = Resx.App.New + formProfile.FormName;
+			newButton.Text = Resx.App.New + " " + formProfile.FormName;
 		}
 
 		public void OnDelete(object sender, EventArgs e)
