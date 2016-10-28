@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Diagnostics;
 using LovoForms;
 
 namespace LovoForms
@@ -31,6 +32,11 @@ namespace LovoForms
 					new KeyValueProperty(Resx.JobCards.When, "")
 				}
 			};
+		}
+
+		public void update()
+		{
+			Debug.WriteLine("Update form.");
 		}
 	}
 }

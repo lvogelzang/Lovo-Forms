@@ -81,6 +81,7 @@ namespace LovoForms
 					foreach (Property property in list)
 					{
 						tableSection.Add(property.getCell());
+						property.registerUpdateEvent(Form);
 					}
 					tableRoot.Add(tableSection);
 				}

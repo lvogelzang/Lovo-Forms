@@ -1,4 +1,4 @@
-﻿using System;
+﻿using System.Diagnostics;
 using Xamarin.Forms;
 
 namespace LovoForms
@@ -21,6 +21,15 @@ namespace LovoForms
 			_cell.Label = Key;
 			_cell.Text = Value;
 			return _cell;
+		}
+
+		public void registerUpdateEvent(Form form)
+		{
+			_cell.PropertyChanged += (sender, e) =>
+			{
+				Value = _cell.Text;
+				form.update();
+			};
 		}
 	}
 }
