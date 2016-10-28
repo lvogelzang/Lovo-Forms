@@ -112,6 +112,23 @@
   <ItemGroup>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon_40%403x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon_40%402x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon_29.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon_29%402x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon_29%403x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon_60%403x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon_60%402x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon_57%402x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon_57.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon_40.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon_50.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon_50%402x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon_72.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon_72%402x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon_76.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon_76%402x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon_167.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
